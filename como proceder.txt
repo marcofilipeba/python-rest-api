@@ -1,0 +1,15 @@
+
+-- para instalar os packages
+
+sudo -H pip install flask flask-jsonpify flask-sqlalchemy flask-restful
+
+no server.py adaptar o endereço ao ip da máquina
+
+
+-- para executar
+python server.py
+
+Terminar com Ctr+C para não ficar o processo a correr.
+
+se ficar a correr      ps -ef | grep pyth
+matar o processo       sudo kill -9 [nr do processo]
